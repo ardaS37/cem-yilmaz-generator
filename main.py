@@ -1,4 +1,5 @@
-import iprocess
+from gui import run
 
-ciz=iprocess.Show.goster
-ciz(None)
+
+if __name__ == "__main__":
+    run()
